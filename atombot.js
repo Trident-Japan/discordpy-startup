@@ -163,9 +163,6 @@ client.on("message", message => {
   }
 });
 
-if (process.env.DISCORD_BOT_TOKEN == undefined) {
-  console.log("please set ENV: DISCORD_BOT_TOKEN");
-  process.exit(0);
-}
 
-client.login(process.env.DISCORD_BOT_TOKEN);
+
+client.login("NzM5MjY5ODkzNDE2ODEyNjk0.XyYAvQ.JLLKVAkRucV1lfEkX1IbhQnDdyg");
